@@ -1,0 +1,3 @@
+Wilmer Benavides - Javier Cuasapud
+
+La aplicacion recibe una interaccion del usuario con la iterfaz grafica de usuario que es la vista, la vista es el observador y el modelo es el observable. La vista recibe una señal del usuario que se hace por medio del boton busqueda y este manda la señal al controlador y este notifica al modelo (observable) pidiendole a la funcion busqueda de clientes por profesion. Luego el modelo que ya tiene ese notificacion, notifica a las vistas para que generen la informacion requerida por el ususario en la interfaz grafica.
